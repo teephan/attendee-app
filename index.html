@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attendee</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logoContainer">
+            <img src="images/bigAttendee.png" alt="attendee logo">
+        </div>
+
+        <p class="headerP">Search events near your vicinity based on your interests.</p>
+
+        <div class="inputContainer">
+            <input id="addressInput" class="controls" type="text" placeholder="Type in your address here...">
+            <button class="searchButton" id="search" value="search" name="Search" placeholder="search">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="containerContainer">
+        <div class="eventContainer">
+            <!-- <div>
+                <h2>What events are you looking for?</h2>
+            
+                <div class="eventButtons">
+                    <button id="ShowAll">Show All</button>
+                    <button id="113">Concerts</button>
+                    <button>Networking</button>
+                    <button>Science and Technology</button>
+                </div>
+            </div> -->
+
+            <div id="map" class="map"></div>
+        </div>
+    </div>
+
+    <footer><p>Made by Tam Phan</p></footer>
+    
+
+      <!-- SCRIPTS -->
+      
+      <!-- JQUERY -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <!-- GOOGLE MAPS API -->
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.35&key=AIzaSyBI_bWL1FcGYl8JVj4yJqfh28CurBo2zBw&libraries=places&callback="></script>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
